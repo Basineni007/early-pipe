@@ -1,0 +1,8 @@
+pipeline{
+	agent any
+		stages{
+			stage('to compile')
+			{step
+				bat "mvn compile"}
+				}}
+	
