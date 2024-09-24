@@ -7,7 +7,7 @@ pipeline {
 
 			stage('to package')
 			{steps
-				bat "mvn package"}		}
+				bat "mvn package"}		
 			}
 				}
 	
