@@ -1,12 +1,12 @@
 pipeline {
 	agent any
 		stages{
-			stage('compile')
-			{step
+			stage("compile")
+			{steps
 				bat "mvn compile"}
 
 			stage('package')
-			{step
+			{steps
 				bat "mvn package"}		
 			}
 				}
